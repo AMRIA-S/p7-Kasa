@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+
+.header-img {
+    width: 210px;
+    height: 68px;
+}
+
+.headerNav {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.headerNav-lien {
+    color: #FF6060;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    /*${(props) =>
+        props.$pageActuelle && `border-bottom: solid 2px ${colors.primary};`};*/
+}
+
+.headerNav-lien:active {
+    border-bottom: solid 2px #FF6060;
+}

@@ -1,0 +1,25 @@
+body, html {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+main {
+    margin: 60px 94px;
+}
+
+ @media screen and (max-width: 730px) {
+    .home-listLogement::before {
+        width: 25%;
+    }
+    .home-listLogement{
+        width: 29%;
+    }
+} 
+/*@media screen and (max-width:1503px) {
+    .home-listLogement::before {
+        width: 25%;
+    }
+    .home-listLogement{
+        width: 29%;
+    }    
+}*/

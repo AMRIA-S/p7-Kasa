@@ -1,0 +1,16 @@
+.home-img {
+    width: 100%;
+    height: 223px;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-radius: 25px;
+}
+
+.titre-h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -173px;
+    font-weight: 500;
+    font-size:48px;
+}

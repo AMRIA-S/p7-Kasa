@@ -1,31 +1,14 @@
 import logoFooter from '../../assets/Images/logoFooter.png'
-import { styled } from 'styled-components'
-import { colors } from '../../Styles/globalStyles'
-
-const DivFooter = styled.div`
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`
-
-const Image = styled.img`
-    width: 93px;
-    padding: 42px 0px 6px 0px;
-`
-
-const TextFooter = styled.h3`
-    color: ${colors.primary};
-    size: 24px;
-    font-weight: 500;
-`
+import '../../Styles/Banner/footer.css'
 
 function Footer() {
     return (
-        <DivFooter>
-            <Image src={logoFooter} alt="Logo Kasa" />
-            <TextFooter>©️ 2020 Kasa. All rights reserved</TextFooter>
-        </DivFooter>
+        <footer>
+            <img className="footer-img" src={logoFooter} alt="Logo Kasa" />
+            <h3 className="footer-titleH3">
+                ©️ 2020 Kasa. All rights reserved
+            </h3>
+        </footer>
     )
 }
 export default Footer

@@ -1,0 +1,46 @@
+.home-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.home-listLogement {
+    width: 30%;
+    list-style-type: none;
+    margin: 27px;
+    border-radius: 10px;
+}
+.home-listLogement::before{    
+    content: "";
+    z-index: 2;
+    position: absolute;
+    height: 72%;
+    width: 26%;
+    border-radius: 10px;
+    background: linear-gradient(#FFFFFF00, #00000080);
+}
+.home-listLogement:hover{
+    box-shadow: 0px 8px 20px 7px #ff606096;
+    cursor: pointer;
+}
+
+.titre-listLogement {
+    font-size: 18px;
+    max-width: 239px;
+    color: #ffffff;
+    margin: -62px 0px 0px 23px;
+    z-index: 2;
+    position: relative;
+}
+.section-listAppartement {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 2%;
+}
+.home-imgListLogement {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
