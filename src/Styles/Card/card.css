@@ -5,27 +5,30 @@
     padding: 0;
     margin: 0;
 }
-.home-listLogement {
+.home-display a {
     width: 30%;
     list-style-type: none;
     margin: 27px;
     border-radius: 10px;
 }
-.home-listLogement::before{    
+.home-display a::before {
     content: "";
     z-index: 2;
     position: absolute;
-    height: 72%;
+    height: 85%;
     width: 26%;
     border-radius: 10px;
     background: linear-gradient(#FFFFFF00, #00000080);
 }
-.home-listLogement:hover{
+.home-display li {
+    border-radius: 10px;
+}
+.home-display a:hover{
     box-shadow: 0px 8px 20px 7px #ff606096;
     cursor: pointer;
 }
 
-.titre-listLogement {
+.home-display h5 {
     font-size: 18px;
     max-width: 239px;
     color: #ffffff;

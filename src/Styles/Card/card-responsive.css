@@ -1,0 +1,226 @@
+/***************Version Desktop***************/
+@media screen and (max-width:1892px) {
+    .home-display a::before {
+        width: 25%;
+    }
+    .home-display a {
+        width: 29%;
+    }    
+}
+@media screen and (max-width:1650px){
+    .home-display a::before {
+        width: 24.7%;
+    }
+}
+@media screen and (max-width:1505px) {
+    .home-display a::before {
+        width: 23.4%;
+        height: 62.5%;
+    }
+    .home-display a {
+        width: 28%;
+    }
+    .home-imgListLogement {
+        height: 250px;
+    }
+    .home-display h5 {
+        max-width: 194px;
+        font-size: 14px;
+
+    }
+}
+@media screen and (max-width: 1340px) {
+    .home-display a::before {
+        width: 23%;
+        height: 62%;
+    }
+    .home-display a {
+        width: 28%;
+    }
+    .home-imgListLogement {
+        height: 246px;
+    }
+    .home-display h5 {
+        font-size: 16px;
+        margin: -55px 0px 0px 20px;
+    }
+}
+/**************Version Tablette**************/
+
+@media screen and (max-width: 1279px) {
+    .home-display a::before {
+        width: 36%;
+        height: 62.3%;
+    }
+    .home-display a {
+        width: 44%;
+    }
+    .home-imgListLogement {
+        height: 248px;
+    }
+    .home-display h5 {
+        font-size: 16px;
+        max-width: 222px;
+    }
+}
+@media screen and (max-width: 1192px) {
+    .home-display a::before {
+        width: 35.5%;
+    }
+}
+@media screen and (max-width: 1142px) {
+    .home-display a{
+        width: 43%;
+    }
+    .home-display a::before {
+        width: 34.5%;
+    }
+}
+@media screen and (max-width: 1108px) {
+    .home-display a{
+        width: 42%;
+    }
+    .home-display a::before {
+        width: 33%;
+    }
+}
+@media screen and (max-width:968px) {
+    .home-display a {
+        width: 41.8%;
+    }
+    .home-display a::before {
+        width: 32%;
+    }
+    .home-display h5 {
+        font-size: 12px;
+        max-width: 168px;
+    }
+}
+@media screen and (max-width:890px){
+    .home-display a {
+        width: 41%;
+    }
+    .home-display a::before {
+        width: 31%;
+    }
+}
+@media screen and (max-width:829px){
+    .home-display a {
+        width: 40%;
+    }
+    .home-display a::before{
+        width: 29.5%;
+    }
+}
+
+/***********Version Mobile***********/
+@media screen and (max-width:768px) {
+    .titre-h1 {
+        text-align: left;
+        top: -170px;
+        left: 6%;
+        max-width: 414px;
+        font-size: 44px;
+    }
+    .section-listAppartement {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .home-display {
+        flex-direction: column;
+        padding: 0;
+    }    
+    .home-display a {
+        width: 100%;
+        margin: 0px 0px 76px 0px;
+    }
+    .home-display a::before {
+        width: 88%;
+        height: 248px;
+    }
+    .home-display h5 {
+        font-size: 14px;
+        max-width: 193px;
+    }
+}
+@media screen and (max-width:740px) {
+    .home-display a::before {
+        width: 87%;
+    }
+}
+@media screen and (max-width:690px){
+    .home-display a::before {
+        width: 86%;
+    }
+}
+@media screen and (max-width:620px){
+    .home-display a::before {
+        width: 85%;
+    }
+}
+@media screen and (max-width:590px){
+    .home-display a::before {
+        width: 84%;
+    }
+}
+@media screen and (max-width:550px) {
+    .home-display a::before {
+        width: 83%;
+    }
+}
+@media screen and (max-width:520px) {
+    .home-display a::before {
+        width: 82%;
+    }
+}
+@media screen and (max-width:470px) {
+    .home-display a::before {
+        width: 80%;
+    }
+}
+@media screen and (max-width:420px) {
+    .home-display a::before {
+        width: 78%;
+    }
+}
+@media screen and (max-width:380px) {
+    .home-display a::before {
+        width: 76%;
+    }
+}
+@media screen and (max-width:360px) {
+    .home-imgListLogement {
+        height: 206px;
+    }
+    .home-display a::before {
+        width: 73%;
+        height: 207px;
+    }
+    .home-display h5 {
+        font-size: 10px;
+        max-width: 158px;
+    }
+}
+@media screen and (max-width:330px) {
+    .home-display a::before {
+        width: 71%;
+    }
+}
+@media screen and (max-width:315px) {
+    .home-display a::before {
+        width: 69%;
+    }
+}
+@media screen and (max-width:300px) {
+    .home-display a {
+        margin-bottom: 48px;
+    }
+    .home-display a::before {
+        width: 68%;
+        height: 150px;
+    }
+    .home-imgListLogement {
+        height: 150px;
+    }
+}

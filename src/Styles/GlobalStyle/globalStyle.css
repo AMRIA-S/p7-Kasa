@@ -1,0 +1,12 @@
+body, html {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+main {
+    margin: 60px 94px;
+}
+
+a {
+    text-decoration: none;
+}
