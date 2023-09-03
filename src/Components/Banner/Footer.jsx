@@ -1,13 +1,18 @@
 import logoFooter from '../../assets/Images/logoFooter.png'
-import '../../Styles/Banner/footer.css'
+import '../../Styles/Banner/Footer/footer.css'
+import '../../Styles/Banner/Footer/footer-responsive.css'
 
 function Footer() {
     return (
         <footer>
-            <img className="footer-img" src={logoFooter} alt="Logo Kasa" />
-            <h3 className="footer-titleH3">
-                ©️ 2020 Kasa. All rights reserved
-            </h3>
+            <figure>
+                <img className="footer-img" src={logoFooter} alt="Logo Kasa" />
+                <figcaption>
+                    <p className="footer-text">
+                        ©️ 2020 Kasa. All rights reserved
+                    </p>
+                </figcaption>
+            </figure>
         </footer>
     )
 }

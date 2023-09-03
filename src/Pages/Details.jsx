@@ -1,11 +1,11 @@
-import { useParams } from 'react-router'
+import CardDetails from '../Components/FicheCard/FicheCard'
+import '../Styles/Details/details.css'
+import '../Styles/Details/details-responsive.css'
 
 function Details() {
-    const { id } = useParams()
     return (
         <main>
-            <h1>Details</h1>
-            <h2>Id: {id}</h2>
+            <CardDetails />
         </main>
     )
 }

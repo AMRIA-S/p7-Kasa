@@ -1,0 +1,29 @@
+/**************Version Tablette (1279px)**************/
+
+/**************Version Mobile (768px)**************/
+@media screen and (max-width: 768px) {
+    header{
+        margin: 5% 5%;
+    }
+    .header-img{
+        width: 20%;
+    }
+    
+    .headerNav-lien{
+        margin-left: 21px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headerNav-lien {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .headerNav-lien {
+        font-size: 12px;
+        margin-left: 14px;
+    }
+}

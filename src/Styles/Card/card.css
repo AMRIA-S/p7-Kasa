@@ -1,49 +1,49 @@
+.section-listAppartement {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+.section-listAppartement ul {
+    padding: 2%;
+    margin: 0;
+}
 .home-display {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
+    justify-content: flex-start;
 }
 .home-display a {
-    width: 30%;
+    width: 31.3%;
+    margin: 1%;
     list-style-type: none;
-    margin: 27px;
     border-radius: 10px;
 }
 .home-display a::before {
     content: "";
     z-index: 2;
     position: absolute;
-    height: 85%;
-    width: 26%;
+    height: 374px;
+    width: 27%;
     border-radius: 10px;
     background: linear-gradient(#FFFFFF00, #00000080);
-}
-.home-display li {
-    border-radius: 10px;
 }
 .home-display a:hover{
     box-shadow: 0px 8px 20px 7px #ff606096;
     cursor: pointer;
 }
 
+.home-imgListLogement {
+    width: 100%;
+    height: 374px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 .home-display h5 {
     font-size: 18px;
     max-width: 239px;
+    height: 57px;
     color: #ffffff;
     margin: -62px 0px 0px 23px;
     z-index: 2;
     position: relative;
-}
-.section-listAppartement {
-    background-color: #F6F6F6;
-    border-radius: 25px;
-    padding: 2%;
-}
-.home-imgListLogement {
-    width: 100%;
-    height: 340px;
-    object-fit: cover;
-    border-radius: 10px;
 }

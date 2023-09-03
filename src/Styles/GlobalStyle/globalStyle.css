@@ -4,7 +4,11 @@ body, html {
 }
 
 main {
-    margin: 60px 94px;
+    margin: 3% 5%;
+}
+
+figure, figcaption {
+    margin: 0;
 }
 
 a {

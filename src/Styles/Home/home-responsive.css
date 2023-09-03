@@ -1,71 +1,93 @@
-@media screen and (max-width: 768px) {
-    main div {
-        height: 216px;
-    }
-    .home-img {
-        height: 160px;
-    }
-    .home-title {
-        max-width: 378px;
-        font-size: 35px;
-        top: -155px;
-    }
-}
-@media screen and (max-width:768px) {
-    .home-title {
-        text-align: left;
-        top: -170px;
-        left: 6%;
-        max-width: 414px;
-        font-size: 44px;
-    }
-}
+/************Version Desktop*********************/
+/************Version Tablette (1279px)***********/
 @media screen and (max-width:1080px) {
-    .home-title {
-        font-size: 38px;
-        top: -142px;
+    .home figcaption {
+        top: -118px;
     }
-    .home-img {
+    .home h1 {
+        font-size: 38px;
+    }
+    .home img {
         height: 180px;
     }
 }
-@media screen and (max-width:890px) {
-    .home-title {
-        font-size: 32px;
-        top: -120px;
+@media screen and (max-width:1080px) {
+    .home h1 {
+        font-size: 36px;
     }
-    .home-img {
+}
+@media screen and (max-width:890px) {
+    .home figcaption {
+        top: -100px;
+    }
+    .home h1 {
+        font-size: 32px;
+    }
+    .home img {
         height: 148px;
     }
 }
-@media screen and (max-width:550px) {
-    .home-title {
-        font-size: 28px;
-        max-width: 73%;
+/************Version Mobile (768px)**************/
+@media screen and (max-width: 768px) {
+    .home {
+        height: 200px;
+    }
+    .home img {
+        height: 160px;
+        border-radius: 10px;
+    }
+    .home figcaption {
+        left: 6%;
+        width: 300px;
         top: -126px;
     }
+    .home h1 {
+        text-align: left;
+        font-size: 32px;
+    }
 }
-@media screen and (max-width:360px) {
-    .home-title {
+@media screen and (max-width:550px) {
+    .home {
+        height: 170px;
+    }
+    .home img {
+        height: 140px;
+    }
+    .home figcaption {
+        top: -110px;
+        width: 260px;
+    }
+    .home h1 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .home {
+        height: 130px;
+    }
+    .home img {
+        height: 100px;
+    }
+    .home figcaption {
+        width: 186px;
+        top: -80px;
+    }
+    .home h1 {
         font-size: 20px;
-        top: -100px;
-    }
-    .home-img {
-        height: 112px;
-    }
-    main div {
-        height: 150px;
     }
 }
-@media screen and (max-width:300px) {
-    .home-title {
-        font-size: 15px;
-        top: -77px;
+ @media screen and (max-width:330px) {
+    .home {
+        height: 100px;
     }
-    .home-img {
-        height: 85px;
+    .home img {
+        height: 80px;
     }
-    main div {
-        height: 122px;
+    .home figcaption {
+        width: 160px;
+        top: -65px;
+    }
+    .home h1 {
+        font-size: 17px;
     }
 }

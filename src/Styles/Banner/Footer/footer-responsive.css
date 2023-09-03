@@ -1,0 +1,6 @@
+/**************Version Mobile (768px)**************/
+@media screen and (max-width:768px) {
+    .footer-text {
+        font-size: 10px;
+    }
+}
