@@ -1,23 +1,22 @@
 .section-listAppartement {
     background-color: #F6F6F6;
     border-radius: 25px;
+    padding: 1% 2%;
 }
 .section-listAppartement ul {
-    padding: 2%;
-    margin: 0;
-}
-.home-display {
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.home-display a {
-    width: 31.3%;
+.home-display {
     margin: 1%;
+    width: 31.3%;
+    border-radius: 10%;
     list-style-type: none;
-    border-radius: 10px;
 }
+
 .home-display a::before {
     content: "";
     z-index: 2;
@@ -27,7 +26,7 @@
     border-radius: 10px;
     background: linear-gradient(#FFFFFF00, #00000080);
 }
-.home-display a:hover{
+.home-display:hover{
     box-shadow: 0px 8px 20px 7px #ff606096;
     cursor: pointer;
 }

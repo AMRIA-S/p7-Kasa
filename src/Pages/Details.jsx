@@ -1,4 +1,4 @@
-import CardDetails from '../Components/FicheCard/FicheCard'
+import CardDetails from '../Components/CardDetails/CardDetails'
 import '../Styles/Details/details.css'
 import '../Styles/Details/details-responsive.css'
 

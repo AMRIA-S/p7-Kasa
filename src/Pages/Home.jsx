@@ -1,7 +1,8 @@
 import homeImg from '../assets/Images/homeImg.png'
 import '../Styles/Home/home.css'
 import '../Styles/Home/home-responsive.css'
-import Cards from '../Components/Cards/Cards'
+import Card from '../Components/Card/Card'
+import listLogement from '../AnnoncesLogement/logement'
 
 function Home() {
     return (
@@ -17,9 +18,11 @@ function Home() {
             </section>
             <section className="section-listAppartement">
                 <ul>
-                    <li className="home-display">
-                        <Cards />
-                    </li>
+                    {listLogement.map((logement) => (
+                        <li key={logement.id} className="home-display">
+                            <Card logement={logement} />
+                        </li>
+                    ))}
                 </ul>
             </section>
         </main>
