@@ -1,0 +1,69 @@
+/**************Version Desktop**************/
+@media screen and (max-width:1170px) {
+    .pageDetails-navBar p, .pageDetails-navBar li {
+        font-size: 18px;
+    }
+    .pageDetails-navBar button {
+        font-size: 18px;
+        padding: 15px 22px 4px 28px;
+    }
+}
+
+/**************Version Tablette (1279px)**************/
+@media screen and (max-width:930px) {
+    .pageDetails-navBar p, .pageDetails-navBar li {
+        font-size: 16px;
+    }
+    .pageDetails-navBar p, ul {
+        padding: 16px 13px;
+    }
+}
+@media screen and (max-width:930px) {
+    .pageDetails-navBar p, .pageDetails-navBar li {
+        font-size: 14px;
+    }
+    .pageDetails-navBar p, ul {
+        padding: 18px 25px;
+    }
+}
+@media screen and (max-width:560px) {
+    .pageDetails-navBar button {
+        font-size: 16px;
+        padding: 15px 22px 3px 28px;
+    }
+    .pageDetails-navBar p, .pageDetails-navBar li {
+        font-size: 13px;
+    }
+}
+/**************Version Mobile (450px)**************/
+@media screen and (max-width:450px) {
+    .pageDetails-navBar {
+        flex-direction: column;
+    }
+    .pageDetails-navBar button {
+        width: 100%;
+    }
+    button.navBar-close {
+        margin-bottom: 20px;
+    }
+    .pageDetails-navBar div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pageDetails-navBar p, ul {
+        padding: 6px 24px;
+    }
+}
+@media screen and (max-width:430px) {
+    .pageDetails-navBar p, ul {
+        padding: 24px 22px;
+    }
+    .pageDetails-navBar p, .pageDetails-navBar li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:340px) {
+    .pageDetails-navBar p, .pageDetails-navBar li {
+        font-size: 12px;
+    }
+}

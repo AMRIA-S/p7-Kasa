@@ -11,6 +11,7 @@ figure, figcaption {
     margin: 0;
 }
 
-a {
+a, li {
     text-decoration: none;
+    list-style-type: none;
 }

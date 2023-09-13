@@ -1,6 +1,4 @@
 import CardDetails from '../Components/CardDetails/CardDetails'
-import '../Styles/Details/details.css'
-import '../Styles/Details/details-responsive.css'
 
 function Details() {
     return (

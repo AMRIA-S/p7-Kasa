@@ -27,8 +27,25 @@
         height: 148px;
     }
 }
-/************Version Mobile (768px)**************/
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width:660px) {
+    .home h1 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:560px) {
+    .home figcaption {
+        top: -88px;
+    }
+    .home h1 {
+        font-size: 22px;
+    }
+    .home img {
+        height: 135px;
+    }
+}
+/************Version Mobile (450px)**************/
+@media screen and (max-width: 450px) {
     .home {
         height: 200px;
     }
@@ -38,26 +55,11 @@
     }
     .home figcaption {
         left: 6%;
-        width: 300px;
+        width: 264px;
         top: -126px;
     }
     .home h1 {
         text-align: left;
-        font-size: 32px;
-    }
-}
-@media screen and (max-width:550px) {
-    .home {
-        height: 170px;
-    }
-    .home img {
-        height: 140px;
-    }
-    .home figcaption {
-        top: -110px;
-        width: 260px;
-    }
-    .home h1 {
         font-size: 28px;
     }
 }

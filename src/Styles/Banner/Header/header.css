@@ -25,6 +25,6 @@ header {
         props.$pageActuelle && `border-bottom: solid 2px ${colors.primary};`};*/
 }
 
-.headerNav-lien:active {
+.active {
     border-bottom: solid 2px #FF6060;
 }

@@ -1,0 +1,37 @@
+.pageDetails-navBar div {
+    width: 47%;
+    background: #F6F6F6;
+    border-radius: 10px;
+}
+
+.pageDetails-navBar button {
+    background: #FF6060;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 22px 15px 28px;
+}
+
+.pageDetails-navBar p, ul {
+    margin: 0;
+    padding: 30px 25px;
+    color: #FF6060;
+    font-size: 20px;
+}
+
+.pageDetails-navBar li {
+    padding: 2px;
+    font-size: 20px;
+}
+
+.navBar-open{
+    width: 100%;
+}
+
+.navBar-close{
+    width: 47%;
+}
