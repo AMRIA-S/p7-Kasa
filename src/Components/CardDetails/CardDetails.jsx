@@ -63,7 +63,7 @@ function CardDetails() {
                     </figcaption>
                 </figure>
                 <button
-                    className="carrousel-button"
+                    className="carrousel-button left"
                     style={styles.displayNone}
                     onClick={imagePrecedente}
                 >

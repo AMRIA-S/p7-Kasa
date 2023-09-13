@@ -42,22 +42,22 @@
 
 .carrousel-button {
     position: absolute;
-    padding: 6.3% 0%;
-    top: 212px;
+    top: 25rem;
     border: none;
     background: none;
-    cursor: pointer;
 }
-
+.left {
+    left: 6.5%
+}
 .right {
-    right: 5%;
+    right: 6.5%;
 }
 
 .carrousel-button svg {
-    width: 11.5em;
-    height: 20em;
-    cursor: pointer;
+    width: 5em;
+    height: 10em;
     color: white;
+    cursor: pointer;
     fill: currentColor;
 }
 .pageDetails-informations {

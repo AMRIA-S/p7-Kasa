@@ -19,14 +19,6 @@
     align-items: center;
     padding: 15px 22px 15px 28px;
 }
-.navBar-close svg {
-    width: 2em;
-    height: 2em;
-}
-.navBar-open svg {
-    width: 2em;
-    height: 2em;
-}
 .section-navBar .close {
     width: 100%;
     margin-bottom: 30px;
