@@ -7,14 +7,14 @@ function NavbarEquipements(props) {
     const [open, setOpen] = useState(false)
 
     return open ? (
-        <div>
+        <div className="navBar">
             <button className="navBar-open" onClick={() => setOpen(false)}>
                 {props.label} <FlecheHaut />
             </button>
             {props.html}
         </div>
     ) : (
-        <button className="navBar-close" onClick={() => setOpen(true)}>
+        <button className="navBar-close close" onClick={() => setOpen(true)}>
             {props.label} <FlecheBas />
         </button>
     )

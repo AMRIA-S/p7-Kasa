@@ -1,0 +1,18 @@
+/**************Version Tablette (1279px)**************/
+@media screen and (max-width:768px) {
+    .section-navBar {
+        margin: 30px 60px 30px 60px;
+    }
+}
+@media screen and (max-width:420px) {
+    .apropos img {
+        height: 200px;
+    }
+}
+
+/**************Version Mobile (450px)**************/
+@media screen and (max-width:450px) {
+    .section-navBar {
+        margin: 30px 0px 30px 0px;
+    }
+}

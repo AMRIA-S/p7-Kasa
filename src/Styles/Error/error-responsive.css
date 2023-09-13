@@ -1,0 +1,47 @@
+/**************Version Tablette (1279px)**************/
+@media screen and (max-width:768px) {
+    .error h1 {
+        font-size: 230px;
+    }
+    .error h2 {
+        font-size: 24px;
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+}
+@media screen and (max-width:510px) {
+    .error h1 {
+        font-size: 170px;
+        margin-top: 170px;
+    }
+    .error h2 {
+        font-size: 17px;
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+    .error a {
+        font-size: 18px;
+    }
+}
+
+/**************Version Mobile (450px)**************/
+@media screen and (max-width:450px) {
+    .error h1 {
+        font-size: 150px;
+    }
+    .error h2 {
+        font-size: 17px;
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+}
+@media screen and (max-width:350px) {
+    .error h1 {
+        font-size: 140px;
+    }
+    .error h2 {
+        font-size: 17px;
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+}
