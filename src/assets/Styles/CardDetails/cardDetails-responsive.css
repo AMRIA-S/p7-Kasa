@@ -76,7 +76,7 @@
     }
     .pageDetails-host h3 {
         font-size: 20px;
-        width: 11%;
+        width: 9%;
         margin-right: 8px;
     }
     .pageDetails-host img {
@@ -95,6 +95,11 @@
     }
     .pageDetails-tags {
         margin-top: 0;
+    }
+}
+@media screen and (max-width:1060px) {
+    .pageDetails-host h3 {
+        width: 10%;
     }
 }
 @media screen and (max-width: 930px) {
