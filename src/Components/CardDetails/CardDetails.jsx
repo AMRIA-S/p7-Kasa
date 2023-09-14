@@ -2,10 +2,11 @@ import { useParams } from 'react-router'
 import { Navigate } from 'react-router-dom'
 import React, { useState } from 'react'
 import listLogement from '../../AnnoncesLogement/logement'
-import '../../Styles/CardDetails/cardDetails.css'
-import '../../Styles/CardDetails/cardDetails-responsive.css'
-import { FlecheGauche, FlecheDroite } from '../../assets/icon/Fleche'
-import { EtoileActif, EtoileInactif } from '../../assets/icon/Etoile'
+import Tag from '../Tag/Tag'
+import '../../assets/Styles/CardDetails/cardDetails.css'
+import '../../assets/Styles/CardDetails/cardDetails-responsive.css'
+import { FlecheGauche, FlecheDroite } from '../Etoile/icon/Fleche'
+import { EtoileActif, EtoileInactif } from '../Etoile/icon/Etoile'
 import Navbar from '../Navbar/Navbar'
 
 function CardDetails() {
@@ -44,12 +45,12 @@ function CardDetails() {
             <section className="pageDetails-carrousel">
                 <figure>
                     <ul>
-                        {appartement.pictures.map((pictures, index) => (
-                            <li key={`${pictures}-${index}`}>
+                        {appartement.pictures.map((picture, index) => (
+                            <li key={`${picture}-${index}`}>
                                 {index === nextImage && (
                                     <img
                                         className="carrousel-image"
-                                        src={pictures}
+                                        src={picture}
                                         alt={appartement.title}
                                     />
                                 )}
@@ -81,8 +82,8 @@ function CardDetails() {
                 <h1>{appartement.title}</h1>
                 <h2>{appartement.location}</h2>
                 <ul className="pageDetails-tags">
-                    {appartement.tags.map((tags, index) => (
-                        <li key={`${tags}-${index}`}>{tags}</li>
+                    {appartement.tags.map((tag, index) => (
+                        <Tag key={`${tag}-${index}`} tag={tag} />
                     ))}
                 </ul>
 
@@ -96,9 +97,9 @@ function CardDetails() {
                     </div>
 
                     <div className="pageDetails-rating">
-                        {stars.map((ex, index) => (
-                            <span key={`${ex}-${index}`}>
-                                {appartement.rating >= ex ? (
+                        {stars.map((star, index) => (
+                            <span key={`${star}-${index}`}>
+                                {appartement.rating >= star ? (
                                     <EtoileActif />
                                 ) : (
                                     <EtoileInactif />
@@ -118,9 +119,9 @@ function CardDetails() {
                         html={
                             <ul>
                                 {appartement.equipments.map(
-                                    (equipments, index) => (
-                                        <li key={`${equipments}-${index}`}>
-                                            {equipments}
+                                    (equipment, index) => (
+                                        <li key={`${equipment}-${index}`}>
+                                            {equipment}
                                         </li>
                                     )
                                 )}

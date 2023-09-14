@@ -76,7 +76,8 @@
     }
     .pageDetails-host h3 {
         font-size: 20px;
-        width: 8%;
+        width: 11%;
+        margin-right: 8px;
     }
     .pageDetails-host img {
         width: 7%;
@@ -111,11 +112,24 @@
     .pageDetails-host img {
         width: 9%;
     }
+    .pageDetails-host h3 {
+        width: 12%;
+    }
 }
 
 @media screen and (max-width:700px) {
     .pageDetails-host img {
         width: 11%;
+    }
+}
+@media screen and (max-width:730px) {
+    .pageDetails-host h3 {
+        width: 15%;
+    }
+}
+@media screen and (max-width:555px) {
+    .pageDetails-host h3 {
+        width: 18%;
     }
 }
 @media screen and (max-width:610px) {

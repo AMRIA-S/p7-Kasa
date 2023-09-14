@@ -1,5 +1,5 @@
-import '../../Styles/Card/card.css'
-import '../../Styles/Card/card-responsive.css'
+import '../../assets/Styles/Card/card.css'
+import '../../assets/Styles/Card/card-responsive.css'
 import { Link } from 'react-router-dom'
 
 function Card(props) {

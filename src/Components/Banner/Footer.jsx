@@ -1,6 +1,6 @@
 import logoFooter from '../../assets/Images/logoFooter.png'
-import '../../Styles/Banner/Footer/footer.css'
-import '../../Styles/Banner/Footer/footer-responsive.css'
+import '../../assets/Styles/Banner/Footer/footer.css'
+import '../../assets/Styles/Banner/Footer/footer-responsive.css'
 
 function Footer() {
     return (

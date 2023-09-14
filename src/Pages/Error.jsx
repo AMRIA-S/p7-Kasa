@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import '../Styles/Error/error.css'
-import '../Styles/Error/error-responsive.css'
+import '../assets/Styles/Error/error.css'
+import '../assets/Styles/Error/error-responsive.css'
+
 function Error() {
     return (
         <main className="error">

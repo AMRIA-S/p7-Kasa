@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import logoHeader from '../../assets/Images/logoHeader.png'
-import '../../Styles/Banner/Header/header.css'
-import '../../Styles/Banner/Header/header-responsive.css'
+import '../../assets/Styles/Banner/Header/header.css'
+import '../../assets/Styles/Banner/Header/header-responsive.css'
 import { useLocation } from 'react-router-dom'
 
 function Header() {

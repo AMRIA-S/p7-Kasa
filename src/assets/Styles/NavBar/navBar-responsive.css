@@ -5,7 +5,6 @@
     }
     .pageDetails-navBar button {
         font-size: 18px;
-        padding: 15px 22px 4px 28px;
     }
 }
 
@@ -29,7 +28,6 @@
 @media screen and (max-width:560px) {
     .pageDetails-navBar button {
         font-size: 16px;
-        padding: 15px 22px 3px 28px;
     }
     .pageDetails-navBar p, .pageDetails-navBar li {
         font-size: 13px;

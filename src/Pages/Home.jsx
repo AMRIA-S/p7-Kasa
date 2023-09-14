@@ -1,6 +1,6 @@
 import homeImg from '../assets/Images/homeImg.png'
-import '../Styles/Home/home.css'
-import '../Styles/Home/home-responsive.css'
+import '../assets/Styles/Home/home.css'
+import '../assets/Styles/Home/home-responsive.css'
 import Card from '../Components/Card/Card'
 import listLogement from '../AnnoncesLogement/logement'
 

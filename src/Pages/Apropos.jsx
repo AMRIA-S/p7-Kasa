@@ -1,7 +1,8 @@
 import AproposImg from '../assets/Images/AproposImg.png'
 import NavBar from '../Components/Navbar/Navbar'
-import '../Styles/APropos/aPropos.css'
-import '../Styles/APropos/aPropos-responsive.css'
+import '../assets/Styles/APropos/aPropos.css'
+import '../assets/Styles/APropos/aPropos-responsive.css'
+
 function Apropos() {
     return (
         <main>

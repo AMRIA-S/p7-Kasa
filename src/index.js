@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Importation Police Monserrat
-import './Styles/GlobalStyle/globalStyle.css'
-import './Styles/GlobalStyle/globalStyle-responsive.css'
+import './assets/Styles/GlobalStyle/globalStyle.css'
 
 // Pages et Components
 import Home from './Pages/Home'
