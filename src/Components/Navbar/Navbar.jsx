@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FlecheHaut, FlecheBas } from '../Etoile/icon/Fleche'
+import { FlecheHaut, FlecheBas } from '../icon/Fleche'
 import '../../assets/Styles/NavBar/navBar.css'
 import '../../assets/Styles/NavBar/navBar-responsive.css'
 
